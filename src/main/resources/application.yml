@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: @env@
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/kangyonggan/config-server
