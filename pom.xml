@@ -68,11 +68,17 @@
         </profile>
         <profile>
             <id>1</id>
+            <properties>
+                <env>1</env>
+            </properties>
+        </profile>
+        <profile>
+            <id>0</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <env>1</env>
+                <env>0</env>
             </properties>
         </profile>
     </profiles>
