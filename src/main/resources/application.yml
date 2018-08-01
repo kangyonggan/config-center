@@ -1,8 +1,6 @@
 spring:
   profiles:
     active: @env@
-
-spring:
   cloud:
     config:
       server:
